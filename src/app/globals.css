@@ -13,4 +13,24 @@
     .btn-text {
         @apply bg-transparent text-black
     }
+    .tag{
+        @apply text-sm border border-[#222]/10 inline-flex px-3 py-1 rounded-lg tracking-tight
+    }
+
+    .heading{
+        @apply text-3xl lg:text-7xl  font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6
+    }
+
+    .sub-heading{
+        @apply text-xl text-[#010D3E] tracking-tight mt-6
+    }
+    .card{
+        @apply p-10 rounded-3xl border border-[#F1F1F1] shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full
+    }
+
+    .logo-ticker-image{
+        @apply h-8 w-auto ;
+    }
 }
+
+
