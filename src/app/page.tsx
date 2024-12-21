@@ -8,7 +8,7 @@ import { Footer } from "@/sections/Footer";
 import { LogoTicker } from "@/sections/LogoTicker";
 
 export default function Home() {
-  return <>
+  return <div className="font-sora">
     <Header/>
     <Hero/>
     <LogoTicker/>
@@ -17,5 +17,5 @@ export default function Home() {
     <Testimonials/>
     <CallToAction/>
     <Footer/>
-  </>
+  </div>
 }

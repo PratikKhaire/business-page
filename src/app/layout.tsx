@@ -3,8 +3,11 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
 
-const dmSans = DM_Sans({ subsets: ["latin"] });
-
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['500', '700'],
+  variable: '--font-dm-sans',
+});
 export const metadata: Metadata = {
   title: "Light Saas Landing Page",
   description: "Template created by Frontend Tribe",

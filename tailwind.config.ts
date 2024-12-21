@@ -14,6 +14,9 @@ const config: Config = {
       lg: "1200px",
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-dm-sans)', 'sans-serif'], // Keep DM Sans
+      },
       container: {
         center: true,
         padding: {
