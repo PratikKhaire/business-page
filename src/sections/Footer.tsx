@@ -33,8 +33,8 @@ export const Footer = () => {
         </div>
         <p className="mt-6">
           Developed By{' '}
-          <a href="https://shridmishra.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-            Shrid Mishra
+          <a href="https://github.com/PratikKhaire" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+            Pratik
           </a>
         </p>
 
